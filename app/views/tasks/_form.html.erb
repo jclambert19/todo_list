@@ -1,0 +1,6 @@
+<%= form_for @task do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :comment %>
+  <%= f.number_field :assigned_to %>
+  <%= f.submit %>
+<% end %>
